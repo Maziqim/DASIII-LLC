@@ -1660,26 +1660,28 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-/* DASIII logo crop */
+/* DASIII article logo crop */
 .image.main.logo-crop {
 	display: block;
 	width: 100%;
 	max-width: 960px;
-	height: 180px;              /* controls top/bottom shave */
+	height: 180px;
 	margin: 2.5rem auto;
 	overflow: hidden;
 	border-radius: 4px;
 	background: transparent;
 }
 
+/* Disable HTML5 UP's dark overlay on this logo only */
 .image.main.logo-crop:before {
-	display: none;              /* removes HTML5 UP overlay on logo */
+	display: none;
 }
 
+/* Crop top and bottom without distorting the logo */
 .image.main.logo-crop img {
 	width: 100%;
 	height: 100%;
-	object-fit: cover;          /* crops instead of squishing */
+	object-fit: cover;
 	object-position: center;
 	display: block;
 	border-radius: 4px;
